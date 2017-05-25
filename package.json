@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve":"NODE_ENV=production node_modules/.bin/babel-node --presets react,es2015 src/server.js"
+    "serve":"NODE_ENV=production node_modules/.bin/babel-node --presets react,es2015 src/server.js",
+    "static":"node_modules/.bin/http-server src/static"
   },
   "author": "Nirav Shah",
   "license": "ISC",
